@@ -36,7 +36,7 @@ function App() {
     }
   };
 
-  // Save to Local
+  // Save todo to the local storage
   const saveLocalTodos = () => {
     if (localStorage.getItem("todos") === null) {
       localStorage.setItem("todos", JSON.stringify(todos));
