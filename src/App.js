@@ -22,7 +22,6 @@ function App() {
     saveLocalTodos();
   }, [todos, status]);
 
-  // Functions
   const filterHandler = () => {
     switch (status) {
       case "completed":
